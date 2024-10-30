@@ -39,7 +39,7 @@ ggplot(virus, aes(x = logGenome, y = logVolume)) +
   theme_minimal()
 
 (e) log(V)=log(α) + β*log(L), where scaling factor(α)=1182, exponent(β)=1.52
-when L=300, V=6884014.6 nm3
+when L=300, V=6884015 nm3
 
 ## Instructions
 
