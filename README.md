@@ -18,7 +18,7 @@ Q5
 
 (a) The table has 34 rows and 13 columns.
 
-(b)
+(b) I can use log(10) transformation.
 
 
 ## Instructions
