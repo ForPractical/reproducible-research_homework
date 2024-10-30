@@ -12,9 +12,7 @@ Q4
 
 (c) I have already done.
 
-(d) Link to the image: https://github.com/ForPractical/reproducible-research_homework/blob/main/Q4(d).png
-
-![Q4(d)](https://github.com/user-attachments/assets/ab6f1294-0a8d-4210-ad1f-55c3ecce3049)
+(d) ![Q4(d)](https://github.com/user-attachments/assets/ab6f1294-0a8d-4210-ad1f-55c3ecce3049)
 
 ## Instructions
 
