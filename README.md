@@ -32,8 +32,8 @@ virus$logVolume <- log(virus$Virion.volume..nm.nm.nm.)
 virus$logGenome <- log(virus$Genome.length..kb.)
 
 ggplot(virus, aes(x = logGenome, y = logVolume)) +
-  geom_point() +  # Scatter plot of points
-  geom_smooth(method = "lm", color = "blue", fill = "gray", linetype = "solid") +  # Linear regression with confidence interval
+  geom_point() +  
+  geom_smooth(method = "lm", color = "blue", fill = "gray", linetype = "solid") +  
   labs(x = "log [Genome length (kb)]",
        y = "log [Virion volume (nm3)]") +
   theme_minimal()
