@@ -14,6 +14,13 @@ Q4
 
 (d) ![Q4(d)](https://github.com/user-attachments/assets/ab6f1294-0a8d-4210-ad1f-55c3ecce3049)
 
+Q5
+
+(a) The table has 34 rows and 13 columns.
+
+(b)
+
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
