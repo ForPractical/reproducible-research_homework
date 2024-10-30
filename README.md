@@ -16,7 +16,7 @@ Q4
 
 Q5
 
-(a) The table has 34 rows and 13 columns.
+(a) The table has 34 rows (if you include the header row; 33 if not) and 13 columns.
 
 (b) I can use log transformation so that log(V)=log(α) + β*log(L).
 
