@@ -14,6 +14,7 @@ Q4
 
 (d) ![Q4(d)](https://github.com/user-attachments/assets/ab6f1294-0a8d-4210-ad1f-55c3ecce3049)
 
+
 Q5
 
 (a) The table has 34 rows (if you include the header row; 33 if not) and 13 columns.
@@ -21,6 +22,24 @@ Q5
 (b) I can use log transformation so that log(V)=log(α) + β*log(L).
 
 (c) scaling factor(α)=1182, exponent(β)=1.52. They are both statistically significant (p<0.001). I compare the values, and they are identical.
+
+(d) The code is shown below:
+
+virus <- read.csv("question-5-data/Cui_etal2014.csv")
+
+virus$logVolume <- log(virus$Virion.volume..nm.nm.nm.)
+
+virus$logGenome <- log(virus$Genome.length..kb.)
+
+ggplot(virus, aes(x = logGenome, y = logVolume)) +
+  geom_point() +  # Scatter plot of points
+  geom_smooth(method = "lm", color = "blue", fill = "gray", linetype = "solid") +  # Linear regression with confidence interval
+  labs(x = "log [Genome length (kb)]",
+       y = "log [Virion volume (nm3)]") +
+  theme_minimal()
+
+(e) log(V)=log(α) + β*log(L), where scaling factor(α)=1182, exponent(β)=1.52
+when L=300, V=6884014.6 nm3
 
 ## Instructions
 
