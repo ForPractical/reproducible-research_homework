@@ -20,6 +20,7 @@ Q5
 
 (b) I can use log transformation so that log(V)=log(α) + β*log(L).
 
+(c) scaling factor(α)=1182, exponent(β)=1.52. They are both statistically significant (p<0.001). I compare the values, and they are identical.
 
 ## Instructions
 
