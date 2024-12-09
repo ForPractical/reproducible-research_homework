@@ -10,7 +10,7 @@ Q4
 
 (b) A random seed is the starting point or initial value followed by the path of the random walks. Using random seeds before generating the random walks ensures that every time we can produce a deterministic path with the seed, and this controls the randomness of the walks and ensures the reproducibility.
 
-(c) I have already done. Please find the script in my repository.
+(c) I have already done. Please find the script in my repository (question-4-code/random_walk.R).
 
 (d) ![Q4(d)](https://github.com/user-attachments/assets/ab6f1294-0a8d-4210-ad1f-55c3ecce3049)
 
